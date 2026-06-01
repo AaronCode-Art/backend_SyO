@@ -1,5 +1,4 @@
-# Ignorar la carpeta de configuración de Spring Boot
-**/src/main/java/com/ecomerce/syo/config/
+
 
 HELP.md
 target/
