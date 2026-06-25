@@ -2,7 +2,7 @@ package com.ecomerce.syo.services.impl;
 
 import com.ecomerce.syo.dto.categoria.CategoriaDetalleDTO;
 import com.ecomerce.syo.dto.categoria.CategoriaListaDTO;
-import com.ecomerce.syo.execption.ResourceNotFoundException;
+import com.ecomerce.syo.exception.ResourceNotFoundException;
 import com.ecomerce.syo.model.Categoria;
 import com.ecomerce.syo.repository.CategoriaRepository;
 import com.ecomerce.syo.services.CategoriaService;
