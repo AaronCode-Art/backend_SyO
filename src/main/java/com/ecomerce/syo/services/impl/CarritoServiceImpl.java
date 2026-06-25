@@ -1,7 +1,7 @@
 package com.ecomerce.syo.services.impl;
 
 import com.ecomerce.syo.dto.carrito.*;
-import com.ecomerce.syo.execption.ResourceNotFoundException;
+import com.ecomerce.syo.exception.ResourceNotFoundException;
 import com.ecomerce.syo.model.*;
 import com.ecomerce.syo.repository.*;
 import com.ecomerce.syo.services.CarritoService;

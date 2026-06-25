@@ -2,10 +2,11 @@ package com.ecomerce.syo.services.impl;
 
 import com.ecomerce.syo.dto.producto.ProductoDetalleDTO;
 import com.ecomerce.syo.dto.producto.ProductoListaDTO;
+import com.ecomerce.syo.exception.ResourceNotFoundException;
 import com.ecomerce.syo.model.Producto;
 import com.ecomerce.syo.repository.ProductoRepository;
 import com.ecomerce.syo.services.ProductoService;
-import com.ecomerce.syo.execption.ResourceNotFoundException;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
